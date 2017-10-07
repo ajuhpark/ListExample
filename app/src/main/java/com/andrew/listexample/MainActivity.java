@@ -45,6 +45,7 @@ public class MainActivity extends Activity {
         andrewsListView.setAdapter(andrewsAdapter);
 
         //setting up a listener so it's ready to listen to a click
+        //this is a test change for github
         andrewsListView.setOnItemClickListener(
                 new AdapterView.OnItemClickListener() {
                     @Override
